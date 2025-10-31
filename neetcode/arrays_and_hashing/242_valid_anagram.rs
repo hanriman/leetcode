@@ -30,6 +30,16 @@ impl Solution {
 
         return res;
     }
+
+    fn is_anagram2(s: String, t: String) -> bool {
+        let mut s_array: Vec<char> = s.chars().collect();
+        let mut t_array: Vec<char> = t.chars().collect();
+
+        s_array.sort_unstable();
+        t_array.sort_unstable();
+
+        s_array == t_array
+    }
 }
 
 #[cfg(test)]
