@@ -1,3 +1,5 @@
+// https://leetcode.com/problems/binary-search/description/
+
 fn main() {
     let nums: Vec<i32> = vec![-2, -1, 0, 1, 2, 3, 4, 5, 6];
     let target: i32 = -2;
