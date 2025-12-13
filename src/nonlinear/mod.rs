@@ -1,1 +1,1 @@
-mod hash_table;
+mod hash_map;
