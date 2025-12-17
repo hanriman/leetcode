@@ -1,3 +1,5 @@
+use std::collections::HashMap;
+
 fn main() {
     let s = String::from("anagram");
     let t = String::from("nagaram");
@@ -39,6 +41,28 @@ impl Solution {
         t_array.sort_unstable();
 
         s_array == t_array
+    }
+
+    fn is_anagram3(s: String, t: String) -> bool {
+        let mut freq: HashMap<char, i32> = HashMap::new();
+
+        for c in s.chars() {
+            *freq.entry(c).or_insert(0) += 1
+        }
+
+        for c in t.chars() {
+            match freq.get_mut(&c) {
+                Some(v) => {
+                    *v -= 1;
+                    if *v == 0 {
+                        freq.remove(&c);
+                    }
+                }
+                _ => return false,
+            }
+        }
+
+        freq.is_empty()
     }
 }
 
