@@ -1,3 +1,4 @@
+mod lc_0485_max_consecutive_ones;
 mod lc_0704_binary_search;
 mod lc_0724_find_pivot_index;
 mod lc_1295_find_numbers_with_even_number_of_digits;

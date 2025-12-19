@@ -1,6 +1,5 @@
 struct Solution {}
 
-
 impl Solution {
     pub fn candy(ratings: Vec<i32>) -> i32 {
         let n = ratings.len();
@@ -21,7 +20,6 @@ impl Solution {
         return candies.iter().sum();
     }
 }
-
 
 #[cfg(test)]
 mod test {

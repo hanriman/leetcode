@@ -1,9 +1,8 @@
 mod dp;
+mod greedy;
 mod introduction_to_array;
-mod lc_0088_merge_sorted_array;
-mod lc_0135_candy;
-mod lc_0485_max_consecutive_ones;
 mod lc_0867_transpose_matrix;
-mod lc_0977_squares_of_a_sorted_array;
-mod lc_1295_find_numbers_with_even_number_of_digits;
+mod math;
+mod prefix_sum;
 mod search;
+mod two_pointers;
