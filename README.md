@@ -12,6 +12,7 @@ han's leetcode journey
 | 0704 | [Binary Search](https://leetcode.com/problems/binary-search) | [rust](src/linear/array/search/lc_0704_binary_search.rs) | Easy | Array | Binary search |
 | 0088 | [Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array) | [rust](src/linear/array/two_pointers/lc_0088_merge_sorted_array.rs) | Easy | Array | Two pointers |
 | 3606 | [Coupon Code Validator](https://leetcode.com/problems/coupon-code-validator) | [rust](src/linear/array/search/lc_3606_coupon_code_validator.rs) | Easy | Array | Filter |
+| 0944 | [Delete Columns to Make Sorted](https://leetcode.com/problems/delete-columns-to-make-sorted) | [rust](src/linear/array/greedy/lc_0944_delete_columns_to_make_sorted.rs) | Easy | Array | greedy |
 | 1287 | [Element Appearing More Than 25% in Sorted Array](https://leetcode.com/problems/element-appearing-more-than-25-in-sorted-array) | [rust](src/nonlinear/hash_map/lc_1287_element_appearing_more_than_25_percent_in_sorted_array.rs) | Easy | Array | Counting |
 | 0242 | [Valid Anagram](https://leetcode.com/problems/valid-anagram) | [rust](src/linear/string/lc_0242_valid_anagram.rs) | Easy | String / Hash Map | Frequency count |
 | 0867 | [Transpose Matrix](https://leetcode.com/problems/transpose-matrix) | [rust](src/linear/array/math/lc_0867_transpose_matrix.rs) | Easy | Array | Math |
