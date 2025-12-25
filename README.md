@@ -15,6 +15,7 @@ han's leetcode journey
 | 0944 | [Delete Columns to Make Sorted](https://leetcode.com/problems/delete-columns-to-make-sorted) | [rust](src/linear/array/greedy/lc_0944_delete_columns_to_make_sorted.rs) | Easy | Array | greedy |
 | 3074 | [Apple Redistribution into Boxes](https://leetcode.com/problems/apple-redistribution-into-boxes) | [rust](src/linear/array/greedy/lc_3074_apple_redistribution_into_boxes.rs) | Easy | Array | greedy |
 | 3075 | [Maximize Happiness of Selected Children](https://leetcode.com/problems/maximize-happiness-of-selected-children/description) | [rust](src/linear/array/greedy/lc_3075_maximize_happiness_of_selected_children.rs) | Medium | Array | greedy |
+| 0747 | [Largest Number At Least Twice of Others](https://leetcode.com/problems/largest-number-at-least-twice-of-others) | [rust](src/linear/array/greedy/lc_747_largest_number_at_least_twice_of_others.rs) | Easy | Array | greedy |
 | 1287 | [Element Appearing More Than 25% in Sorted Array](https://leetcode.com/problems/element-appearing-more-than-25-in-sorted-array) | [rust](src/linear/array/sliding_window/lc_1287_element_appearing_more_than_25_percent_in_sorted_array.rs) | Easy | Array | Sliding Window |
 | 0242 | [Valid Anagram](https://leetcode.com/problems/valid-anagram) | [rust](src/linear/string/lc_0242_valid_anagram.rs) | Easy | String / Hash Map | Frequency count |
 | 0867 | [Transpose Matrix](https://leetcode.com/problems/transpose-matrix) | [rust](src/linear/array/math/lc_0867_transpose_matrix.rs) | Easy | Array | Math |

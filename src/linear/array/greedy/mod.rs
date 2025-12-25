@@ -1,4 +1,5 @@
 mod lc_0135_candy;
 mod lc_0944_delete_columns_to_make_sorted;
 mod lc_3074_apple_redistribution_into_boxes;
-mod lc_maximize_happiness_of_selected_children;
+mod lc_3075_maximize_happiness_of_selected_children;
+mod lc_747_largest_number_at_least_twice_of_others;
