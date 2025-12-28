@@ -1,2 +1,3 @@
+mod lc_0027_remove_element;
 mod lc_0088_merge_sorted_array;
 mod lc_0977_squares_of_a_sorted_array;
