@@ -6,16 +6,18 @@ han's leetcode journey
 | 0412 | [Fizz Buzz](https://leetcode.com/problems/fizz-buzz) | [rust](src/primitive/lc_0412_fizz_buzz.rs) | Easy | Primitive | Basic |
 | 1295 | [Find Numbers with Even Number of Digits](https://leetcode.com/problems/find-numbers-with-even-number-of-digits) | [rust](src/linear/array/search/lc_1295_find_numbers_with_even_number_of_digits.rs) | Easy | Array | Counting |
 | 0724 | [Find Pivot Index](https://leetcode.com/problems/find-pivot-index) | [rust](src/linear/array/prefix_sum/lc_0724_find_pivot_index.rs) | Easy | Array | Prefix sum |
+| 0027 | [Remove Element](https://leetcode.com/problems/remove-element) | [rust](src/linear/array/two_pointers/lc_0027_remove_element.rs) | Easy | Array | Two pointers |
 | 0485 | [Max Consecutive Ones](https://leetcode.com/problems/max-consecutive-ones) | [rust](src/linear/array/search/lc_0485_max_consecutive_ones.rs) | Easy | Array | Linear scan |
 | 0977 | [Squares of a Sorted Array](https://leetcode.com/problems/squares-of-a-sorted-array) | [rust](src/linear/array/two_pointers/lc_0977_squares_of_a_sorted_array.rs) | Easy | Array | Two pointers, Greedy |
 | 0125 | [Valid Palindrome](https://leetcode.com/problems/valid-palindrome) | [rust](src/linear/string/two_pointers/lc_0125_valid_palindrome.rs) | Easy | String | Two pointers |
 | 0704 | [Binary Search](https://leetcode.com/problems/binary-search) | [rust](src/linear/array/search/lc_0704_binary_search.rs) | Easy | Array | Binary search |
+| 1351 | [Count Negative Numbers in a Sorted Matrix](https://leetcode.com/problems/count-negative-numbers-in-a-sorted-matrix) | [rust](src/linear/array/search/lc_1351_count_negative_numbers_in_a_sorted_matrix.rs) | Easy | Array | Binary search |
 | 0088 | [Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array) | [rust](src/linear/array/two_pointers/lc_0088_merge_sorted_array.rs) | Easy | Array | Two pointers |
 | 3606 | [Coupon Code Validator](https://leetcode.com/problems/coupon-code-validator) | [rust](src/linear/array/search/lc_3606_coupon_code_validator.rs) | Easy | Array | Filter |
 | 0944 | [Delete Columns to Make Sorted](https://leetcode.com/problems/delete-columns-to-make-sorted) | [rust](src/linear/array/greedy/lc_0944_delete_columns_to_make_sorted.rs) | Easy | Array | greedy |
 | 3074 | [Apple Redistribution into Boxes](https://leetcode.com/problems/apple-redistribution-into-boxes) | [rust](src/linear/array/greedy/lc_3074_apple_redistribution_into_boxes.rs) | Easy | Array | greedy |
 | 3075 | [Maximize Happiness of Selected Children](https://leetcode.com/problems/maximize-happiness-of-selected-children/description) | [rust](src/linear/array/greedy/lc_3075_maximize_happiness_of_selected_children.rs) | Medium | Array | greedy |
-| 0747 | [Largest Number At Least Twice of Others](https://leetcode.com/problems/largest-number-at-least-twice-of-others) | [rust](src/linear/array/greedy/lc_747_largest_number_at_least_twice_of_others.rs) | Easy | Array | greedy |
+| 0747 | [Largest Number At Least Twice of Others](https://leetcode.com/problems/largest-number-at-least-twice-of-others) | [rust](src/linear/array/greedy/lc_0747_largest_number_at_least_twice_of_others.rs) | Easy | Array | greedy |
 | 1287 | [Element Appearing More Than 25% in Sorted Array](https://leetcode.com/problems/element-appearing-more-than-25-in-sorted-array) | [rust](src/linear/array/sliding_window/lc_1287_element_appearing_more_than_25_percent_in_sorted_array.rs) | Easy | Array | Sliding Window |
 | 0242 | [Valid Anagram](https://leetcode.com/problems/valid-anagram) | [rust](src/linear/string/lc_0242_valid_anagram.rs) | Easy | String / Hash Map | Frequency count |
 | 0867 | [Transpose Matrix](https://leetcode.com/problems/transpose-matrix) | [rust](src/linear/array/math/lc_0867_transpose_matrix.rs) | Easy | Array | Math |
