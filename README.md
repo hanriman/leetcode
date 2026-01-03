@@ -1,6 +1,4 @@
 
-
-
 # leetcode
 han's leetcode journey
 
@@ -9,9 +7,39 @@ han's leetcode journey
 This is a **curated DSA roadmap** with over **180 problems**, divided into three stages: Foundations, Core, and Advanced.  
 Solve them in order to **build strong problem-solving skills, pattern recognition, and interview readiness**.
 
+## Table of Contents
+- [Complete DSA Problem List](#complete-dsa-problem-list)
+	- [Foundations (1–2 months)](#foundations-12-months)
+		- [Arrays & Strings](#arrays--strings-15)
+		- [Hashing](#hashing-10)
+		- [Stack & Queue](#stack--queue-8)
+		- [Two Pointers & Sliding Window](#two-pointers--sliding-window-9)
+		- [Recursion & Basic Math](#recursion--basic-math-8)
+	- [Core Algorithms & Structures (2–4 months)](#core-algorithms--structures-24-months)
+		- [Linked List)](#linked-list-12)
+		- [Binary Search](#binary-search-12)
+		- [Sorting & Intervals](#sorting--intervals-10)
+		- [Two Pointers](#two-pointers-10)
+		- [Sliding Window](#sliding-window-12)
+		- [Trees (DFS / BFS)](#trees-dfs--bfs-18)
+		- [Heap / Priority Queue](#heap--priority-queue-10)
+		- [Basic Graphs](#basic-graphs-10)
+		- [Greedy](#greedy-8)
+		- [Intro Dynamic Programming](#intro-dynamic-programming-18)
+	- [Advanced Level (2–3 months)](#advanced-level-23-months)
+		- [Advanced Dynamic Programming](#advanced-dynamic-programming-18)
+		- [Backtracking](#backtracking-10)
+		- [Graph Algorithms (Dijkstra, Union-Find)](#graph-algorithms-dijkstra-union-find-10)
+		- [Trie](#trie-6)
+		- [Bit Manipulation](#bit-manipulation-6)
+		- [Interval Problems](#interval-problems-5)
+		- [Monotonic Stack / Queue](#monotonic-stack--queue-5)
+- [Notes](#notes)
+- [Previously Solved (will merge latter)](#previously-solved-will-merge-latter)
+
 ---
 
-## 🟢 Foundations (1–2 months)
+## Foundations (1–2 months)
 
 Goal: indexing, traversal, in-place logic, frequency counting, window control, recursion, and basic math.
 
