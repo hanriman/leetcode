@@ -16,7 +16,7 @@ Solve them in order to **build strong problem-solving skills, pattern recognitio
 		- [Two Pointers & Sliding Window](#two-pointers--sliding-window-9)
 		- [Recursion & Basic Math](#recursion--basic-math-8)
 	- [Core Algorithms & Structures (2–4 months)](#core-algorithms--structures-24-months)
-		- [Linked List)](#linked-list-12)
+		- [Linked List](#linked-list-12)
 		- [Binary Search](#binary-search-12)
 		- [Sorting & Intervals](#sorting--intervals-10)
 		- [Two Pointers](#two-pointers-10)
@@ -48,19 +48,19 @@ Goal: indexing, traversal, in-place logic, frequency counting, window control, r
 ### Arrays & Strings (15)
 | id_number | title (problem link) | solution (file link) | difficulty | data structure | algorithm |
 |---|---|---|---|---|---|
-| 1 | [Two Sum](https://leetcode.com/problems/two-sum/) |  | Easy | Array | Hash / Two Pointers |
+| 1 | [Two Sum](https://leetcode.com/problems/two-sum/) | [rust](src/foundations/arrays_and_strings/lc_0001_two_sum.rs) | Easy | Array | Hash / Two Pointers |
 | 2 | [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) |  | Easy | Array | Greedy |
-| 3 | [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/) |  | Easy | Array | HashSet |
+| 3 | [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/) | [rust](src/foundations/arrays_and_strings/lc_0217_contains_duplicate.rs) | Easy | Array | HashSet |
 | 4 | [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/) |  | Medium | Array | Prefix Products |
 | 5 | [Maximum Subarray](https://leetcode.com/problems/maximum-subarray/) |  | Easy | Array | Kadane's |
 | 6 | [Move Zeroes](https://leetcode.com/problems/move-zeroes/) |  | Easy | Array | Two Pointers |
 | 7 | [Rotate Array](https://leetcode.com/problems/rotate-array/) |  | Medium | Array | Reverse / Cyclic |
-| 8 | [Valid Anagram](https://leetcode.com/problems/valid-anagram/) |  | Easy | String | Counter / HashMap |
+| 8 | [Valid Anagram](https://leetcode.com/problems/valid-anagram/) | [rust](src/foundations/arrays_and_strings/lc_0242_valid_anagram.rs) | Easy | String | Counter / HashMap |
 | 9 | [Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/) |  | Easy | String | Trie / Iteration |
-| 10 | [Plus One](https://leetcode.com/problems/plus-one/) |  | Easy | Array | Simulation |
+| 10 | [Plus One](https://leetcode.com/problems/plus-one/) | [rust](src/foundations/arrays_and_strings/lc_0066_plus_one.rs) | Easy | Array | Simulation |
 | 11 | [Majority Element](https://leetcode.com/problems/majority-element/) |  | Easy | Array | HashMap / Boyer-Moore |
-| 12 | [Find Pivot Index](https://leetcode.com/problems/find-pivot-index/) |  | Easy | Array | Prefix Sum |
-| 13 | [Squares of a Sorted Array](https://leetcode.com/problems/squares-of-a-sorted-array/) |  | Easy | Array | Two Pointers |
+| 12 | [Find Pivot Index](https://leetcode.com/problems/find-pivot-index/) | [rust](src/foundations/arrays_and_strings/lc_0724_find_pivot_index.rs) | Easy | Array | Prefix Sum |
+| 13 | [Squares of a Sorted Array](https://leetcode.com/problems/squares-of-a-sorted-array/) | [rust](src/foundations/arrays_and_strings/lc_0977_squares_of_a_sorted_array.rs) | Easy | Array | Two Pointers |
 | 14 | [Is Subsequence](https://leetcode.com/problems/is-subsequence/) |  | Easy | String | Two Pointers |
 | 15 | [String Compression](https://leetcode.com/problems/string-compression/) |  | Easy | String | Two Pointers |
 
@@ -70,7 +70,7 @@ Goal: indexing, traversal, in-place logic, frequency counting, window control, r
 
 | id_number | title (problem link) | solution (file link) | difficulty | data structure | algorithm |
 |---|---|---|---|---|---|
-| 1 | [Valid Anagram (hashmap)](https://leetcode.com/problems/valid-anagram/) |  | Easy | String | HashMap |
+| 1 | [Valid Anagram (hashmap)](https://leetcode.com/problems/valid-anagram/) | [rust](src/foundations/hashing/lc_0242_valid_anagram.rs) | Easy | String | HashMap |
 | 2 | [First Unique Character in a String](https://leetcode.com/problems/first-unique-character-in-a-string/) |  | Easy | String | HashMap |
 | 3 | [Intersection of Two Arrays](https://leetcode.com/problems/intersection-of-two-arrays/) |  | Easy | Array | HashSet |
 | 4 | [Happy Number](https://leetcode.com/problems/happy-number/) |  | Easy | Integer | HashSet |
@@ -87,7 +87,7 @@ Goal: indexing, traversal, in-place logic, frequency counting, window control, r
 
 | id_number | title (problem link) | solution (file link) | difficulty | data structure | algorithm |
 |---|---|---|---|---|---|
-| 1 | [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/) |  | Easy | Stack | Stack |
+| 1 | [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/) | [rust](src/foundations/stack_and_queue/lc_0020_valid_parentheses.rs) | Easy | Stack | Stack |
 | 2 | [Min Stack](https://leetcode.com/problems/min-stack/) |  | Easy | Stack | Stack |
 | 3 | [Implement Queue using Stacks](https://leetcode.com/problems/implement-queue-using-stacks/) |  | Easy | Stack / Queue | Simulation |
 | 4 | [Implement Stack using Queues](https://leetcode.com/problems/implement-stack-using-queues/) |  | Easy | Queue / Stack | Simulation |
@@ -102,10 +102,10 @@ Goal: indexing, traversal, in-place logic, frequency counting, window control, r
 
 | id_number | title (problem link) | solution (file link) | difficulty | data structure | algorithm |
 |---|---|---|---|---|---|
-| 1 | [Valid Palindrome](https://leetcode.com/problems/valid-palindrome/) |  | Easy | String | Two Pointers |
+| 1 | [Valid Palindrome](https://leetcode.com/problems/valid-palindrome/) | [rust](src/foundations/two_pointers_and_sliding_window/lc_0125_valid_palindrome.rs) | Easy | String | Two Pointers |
 | 2 | [Reverse String](https://leetcode.com/problems/reverse-string/) |  | Easy | String | Two Pointers / Recursion |
-| 3 | [Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/) |  | Easy | Array | Two Pointers |
-| 4 | [Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/) |  | Easy | Array | Two Pointers |
+| 3 | [Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/) | [rust](src/foundations/two_pointers_and_sliding_window/lc_0088_merge_sorted_array.rs) | Easy | Array | Two Pointers |
+| 4 | [Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/) | [rust](src/foundations/two_pointers_and_sliding_window/lc_0026_remove_duplicates_from_sorted_array.rs) | Easy | Array | Two Pointers |
 | 5 | [Container With Most Water](https://leetcode.com/problems/container-with-most-water/) |  | Medium | Array | Two Pointers |
 | 6 | [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/) |  | Medium | String | Sliding Window |
 | 7 | [Minimum Size Subarray Sum](https://leetcode.com/problems/minimum-size-subarray-sum/) |  | Medium | Array | Sliding Window |
@@ -139,7 +139,7 @@ Goal: indexing, traversal, in-place logic, frequency counting, window control, r
 | id_number | title (problem link) | solution (file link) | difficulty | data structure | algorithm |
 |----------|----------------------|----------------------|------------|----------------|-----------|
 | 1 | [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/) |  | Easy | Linked List | Two Pointers |
-| 2 | [Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/) |  | Easy | Linked List | Fast & Slow |
+| 2 | [Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/) | [python](src/core/linked_list/lc_0141_linked_list_cycle.py) | Easy | Linked List | Fast & Slow |
 | 3 | [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/) |  | Easy | Linked List | Two Pointers |
 | 4 | [Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/) |  | Medium | Linked List | Two Pointers |
 | 5 | [Intersection of Two Linked Lists](https://leetcode.com/problems/intersection-of-two-linked-lists/) |  | Easy | Linked List | Two Pointers |
@@ -154,7 +154,7 @@ Goal: indexing, traversal, in-place logic, frequency counting, window control, r
 ### Binary Search (12)
 | id_number | title (problem link) | solution (file link) | difficulty | data structure | algorithm |
 |----------|----------------------|----------------------|------------|----------------|-----------|
-| 1 | [Binary Search](https://leetcode.com/problems/binary-search/) |  | Easy | Array | Binary Search |
+| 1 | [Binary Search](https://leetcode.com/problems/binary-search/) | [rust](src/core/binary_search/lc_0704_binary_search.rs) | Easy | Array | Binary Search |
 | 2 | [Search Insert Position](https://leetcode.com/problems/search-insert-position/) |  | Easy | Array | Binary Search |
 | 3 | [Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/) |  | Medium | Array | Binary Search |
 | 4 | [Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/) |  | Medium | Array | Binary Search |
@@ -267,7 +267,7 @@ Goal: indexing, traversal, in-place logic, frequency counting, window control, r
 | 1 | [Jump Game](https://leetcode.com/problems/jump-game/) |  | Medium | Array | Greedy |
 | 2 | [Jump Game II](https://leetcode.com/problems/jump-game-ii/) |  | Medium | Array | Greedy |
 | 3 | [Gas Station](https://leetcode.com/problems/gas-station/) |  | Medium | Array | Greedy |
-| 4 | [Candy](https://leetcode.com/problems/candy/) |  | Hard | Array | Greedy |
+| 4 | [Candy](https://leetcode.com/problems/candy/) | [rust](src/core/greedy/lc_0135_candy.rs) | Hard | Array | Greedy |
 | 5 | [Queue Reconstruction by Height](https://leetcode.com/problems/queue-reconstruction-by-height/) |  | Medium | Array | Greedy |
 | 6 | [Hand of Straights](https://leetcode.com/problems/hand-of-straights/) |  | Medium | HashMap | Greedy |
 | 7 | [Lemonade Change](https://leetcode.com/problems/lemonade-change/) |  | Easy | Array | Greedy |
@@ -427,31 +427,18 @@ Solve these to master **advanced patterns, state design, and algorithmic thinkin
 # Previously Solved (will merge latter)
 | id_number | title (problem link) | solution (file link) | difficulty | data structure | algorithm |
 | --- | --- | --- | --- | --- | --- |
-| 0412 | [Fizz Buzz](https://leetcode.com/problems/fizz-buzz) | [rust](src/primitive/lc_0412_fizz_buzz.rs) | Easy | Primitive | Basic |
-| 1295 | [Find Numbers with Even Number of Digits](https://leetcode.com/problems/find-numbers-with-even-number-of-digits) | [rust](src/linear/array/search/lc_1295_find_numbers_with_even_number_of_digits.rs) | Easy | Array | Counting |
-| 0724 | [Find Pivot Index](https://leetcode.com/problems/find-pivot-index) | [rust](src/linear/array/prefix_sum/lc_0724_find_pivot_index.rs) | Easy | Array | Prefix sum |
-| 2483 | [Minimum Penalty for a Shop](https://leetcode.com/problems/minimum-penalty-for-a-shop) | [rust](src/linear/array/prefix_sum/lc_2483_minimum_penalty_for_a_shop.rs) | Medium | Array | Prefix sum |
 | 0027 | [Remove Element](https://leetcode.com/problems/remove-element) | [rust](src/linear/array/two_pointers/lc_0027_remove_element.rs) | Easy | Array | Two pointers |
+| 0377 | [Combination Sum IV](https://leetcode.com/problems/combination-sum-iv) | [rust](src/linear/array/dp/lc_0377_combination_sum_iv.rs) | Medium | Array | Dynamic programming |
+| 0412 | [Fizz Buzz](https://leetcode.com/problems/fizz-buzz) | [rust](src/primitive/lc_0412_fizz_buzz.rs) | Easy | Primitive | Basic |
 | 0485 | [Max Consecutive Ones](https://leetcode.com/problems/max-consecutive-ones) | [rust](src/linear/array/search/lc_0485_max_consecutive_ones.rs) | Easy | Array | Linear scan |
-| 0977 | [Squares of a Sorted Array](https://leetcode.com/problems/squares-of-a-sorted-array) | [rust](src/linear/array/two_pointers/lc_0977_squares_of_a_sorted_array.rs) | Easy | Array | Two pointers, Greedy |
-| 0125 | [Valid Palindrome](https://leetcode.com/problems/valid-palindrome) | [rust](src/linear/string/two_pointers/lc_0125_valid_palindrome.rs) | Easy | String | Two pointers |
-| 0704 | [Binary Search](https://leetcode.com/problems/binary-search) | [rust](src/linear/array/search/lc_0704_binary_search.rs) | Easy | Array | Binary search |
-| 1351 | [Count Negative Numbers in a Sorted Matrix](https://leetcode.com/problems/count-negative-numbers-in-a-sorted-matrix) | [rust](src/linear/array/search/lc_1351_count_negative_numbers_in_a_sorted_matrix.rs) | Easy | Array | Binary search |
-| 0088 | [Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array) | [rust](src/linear/array/two_pointers/lc_0088_merge_sorted_array.rs) | Easy | Array | Two pointers |
-| 3606 | [Coupon Code Validator](https://leetcode.com/problems/coupon-code-validator) | [rust](src/linear/array/search/lc_3606_coupon_code_validator.rs) | Easy | Array | Filter |
+| 0707 | [Design Linked List](https://leetcode.com/problems/design-linked-list) | [rust](src/linear/linked_list/lc_0707_design_a_linked_list.rs), [safe rust](src/linear/linked_list/lc_0707_design_a_linked_list_safe.rs) | Medium | Linked List | Implementation |
+| 0747 | [Largest Number At Least Twice of Others](https://leetcode.com/problems/largest-number-at-least-twice-of-others) | [rust](src/linear/array/greedy/lc_0747_largest_number_at_least_twice_of_others.rs) | Easy | Array | greedy |
+| 0867 | [Transpose Matrix](https://leetcode.com/problems/transpose-matrix) | [rust](src/linear/array/math/lc_0867_transpose_matrix.rs) | Easy | Array | Math |
 | 0944 | [Delete Columns to Make Sorted](https://leetcode.com/problems/delete-columns-to-make-sorted) | [rust](src/linear/array/greedy/lc_0944_delete_columns_to_make_sorted.rs) | Easy | Array | greedy |
+| 1287 | [Element Appearing More Than 25% in Sorted Array](https://leetcode.com/problems/element-appearing-more-than-25-in-sorted-array) | [rust](src/linear/array/sliding_window/lc_1287_element_appearing_more_than_25_percent_in_sorted_array.rs) | Easy | Array | Sliding Window |
+| 1295 | [Find Numbers with Even Number of Digits](https://leetcode.com/problems/find-numbers-with-even-number-of-digits) | [rust](src/linear/array/search/lc_1295_find_numbers_with_even_number_of_digits.rs) | Easy | Array | Counting |
+| 1351 | [Count Negative Numbers in a Sorted Matrix](https://leetcode.com/problems/count-negative-numbers-in-a-sorted-matrix) | [rust](src/linear/array/search/lc_1351_count_negative_numbers_in_a_sorted_matrix.rs) | Easy | Array | Binary search |
+| 2483 | [Minimum Penalty for a Shop](https://leetcode.com/problems/minimum-penalty-for-a-shop) | [rust](src/linear/array/prefix_sum/lc_2483_minimum_penalty_for_a_shop.rs) | Medium | Array | Prefix sum |
 | 3074 | [Apple Redistribution into Boxes](https://leetcode.com/problems/apple-redistribution-into-boxes) | [rust](src/linear/array/greedy/lc_3074_apple_redistribution_into_boxes.rs) | Easy | Array | greedy |
 | 3075 | [Maximize Happiness of Selected Children](https://leetcode.com/problems/maximize-happiness-of-selected-children/description) | [rust](src/linear/array/greedy/lc_3075_maximize_happiness_of_selected_children.rs) | Medium | Array | greedy |
-| 0747 | [Largest Number At Least Twice of Others](https://leetcode.com/problems/largest-number-at-least-twice-of-others) | [rust](src/linear/array/greedy/lc_0747_largest_number_at_least_twice_of_others.rs) | Easy | Array | greedy |
-| 1287 | [Element Appearing More Than 25% in Sorted Array](https://leetcode.com/problems/element-appearing-more-than-25-in-sorted-array) | [rust](src/linear/array/sliding_window/lc_1287_element_appearing_more_than_25_percent_in_sorted_array.rs) | Easy | Array | Sliding Window |
-| 0242 | [Valid Anagram](https://leetcode.com/problems/valid-anagram) | [rust](src/linear/string/lc_0242_valid_anagram.rs) | Easy | String / Hash Map | Frequency count |
-| 0867 | [Transpose Matrix](https://leetcode.com/problems/transpose-matrix) | [rust](src/linear/array/math/lc_0867_transpose_matrix.rs) | Easy | Array | Math |
-| 0066 | [Plus One](https://leetcode.com/problems/plus-one) | [rust](src/linear/array/math/lc_00_plus_one.rs) | Easy | Array | Math |
-| 0020 | [Valid Parentheses](https://leetcode.com/problems/valid-parentheses) | [rust](src/linear/stack_queue_deque/lc_0020_valid_parentheses.rs) | Easy | Stack | Stack parsing |
-| 0001 | [Two Sum](https://leetcode.com/problems/two-sum) | [rust](src/nonlinear/hash_map/lc_0001_two_sum.rs) | Easy | Hash Map | Hash lookup |
-| 0217 | [Contains Duplicate](https://leetcode.com/problems/contains-duplicate) | [rust](src/nonlinear/hash_map/lc_0217_contains_duplicate.rs) | Easy | Hash Set | Hashing |
-| 0707 | [Design Linked List](https://leetcode.com/problems/design-linked-list) | [rust](src/linear/linked_list/lc_0707_design_a_linked_list.rs), [safe rust](src/linear/linked_list/lc_0707_design_a_linked_list_safe.rs) | Medium | Linked List | Implementation |
-| 0141 | [Linked List Cycle](https://leetcode.com/problems/linked-list-cycle) | [python](src/linear/linked_list/lc_0141_linked_list_cycle.py) | Easy | Linked List | Floyd cycle detection |
-| 0142 | [Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii) | [python](src/linear/linked_list/lc_0142_linked_list_cycle_ii.py) | Medium | Linked List | Floyd cycle detection |
-| 0377 | [Combination Sum IV](https://leetcode.com/problems/combination-sum-iv) | [rust](src/linear/array/dp/lc_0377_combination_sum_iv.rs) | Medium | Array | Dynamic programming |
-| 0135 | [Candy](https://leetcode.com/problems/candy) | [rust](src/linear/array/greedy/lc_0135_candy.rs) | Hard | Array | Greedy |
+| 3606 | [Coupon Code Validator](https://leetcode.com/problems/coupon-code-validator) | [rust](src/linear/array/search/lc_3606_coupon_code_validator.rs) | Easy | Array | Filter |

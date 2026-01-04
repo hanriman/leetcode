@@ -1,1 +1,0 @@
-mod lc_1287_element_appearing_more_than_25_percent_in_sorted_array;

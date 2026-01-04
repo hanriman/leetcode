@@ -1,2 +1,0 @@
-mod lc_0724_find_pivot_index;
-mod lc_2483_minimum_penalty_for_a_shop;

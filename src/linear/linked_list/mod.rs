@@ -1,2 +1,0 @@
-mod lc_0707_design_a_linked_list;
-mod lc_0707_design_a_linked_list_safe;

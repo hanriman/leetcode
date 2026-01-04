@@ -1,5 +1,0 @@
-mod lc_0485_max_consecutive_ones;
-mod lc_0704_binary_search;
-mod lc_1295_find_numbers_with_even_number_of_digits;
-mod lc_1351_count_negative_numbers_in_a_sorted_matrix;
-mod lc_3606_coupon_code_validator;

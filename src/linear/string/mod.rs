@@ -1,4 +1,0 @@
-mod lc_0125_valid_palindrome;
-mod lc_0242_valid_anagram;
-mod lc_1647_minimum_deletions_to_make_character_frequencies_unique;
-mod two_pointers;
