@@ -31,8 +31,8 @@ Solve them in order to **build strong problem-solving skills, pattern recognitio
 		- [Backtracking (10)](#backtracking-10)
 		- [Graph Algorithms (Dijkstra, Union-Find) (10)](#graph-algorithms-dijkstra-union-find-10)
 		- [Trie (6)](#trie-6)
-		- [Bit Manipulation ()](#bit-manipulation-6)
-		- [Interval Problems] (5)(#interval-problems-5)
+		- [Bit Manipulation (6)](#bit-manipulation-6)
+		- [Interval Problems (5)](#interval-problems-5)
 		- [Monotonic Stack / Queue (5)](#monotonic-stack--queue-5)
 - [Notes](#notes)
 - [Previously Solved (will merge latter)](#previously-solved-will-merge-latter)
@@ -43,7 +43,7 @@ Solve them in order to **build strong problem-solving skills, pattern recognitio
 
 Goal: indexing, traversal, in-place logic, frequency counting, window control, recursion, and basic math.
 
-> This section will include **~50 problems**.   
+> This section will include **~60 problems**.   
 
 ### Arrays & Strings (23)
 | id_number | title (problem link) | solution (file link) | difficulty | data structure | algorithm |
