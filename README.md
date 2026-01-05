@@ -10,30 +10,30 @@ Solve them in order to **build strong problem-solving skills, pattern recognitio
 ## Table of Contents
 - [Complete DSA Problem List](#complete-dsa-problem-list)
 	- [Foundations (1–2 months)](#foundations-12-months)
-		- [Arrays & Strings](#arrays--strings-15)
-		- [Hashing](#hashing-10)
-		- [Stack & Queue](#stack--queue-8)
-		- [Two Pointers & Sliding Window](#two-pointers--sliding-window-9)
-		- [Recursion & Basic Math](#recursion--basic-math-8)
+		- [Arrays & Strings (23)](#arrays--strings-23)
+		- [Two Pointers & Sliding Window (11)](#two-pointers--sliding-window-11)
+		- [Hashing (10)](#hashing-10)
+		- [Stack & Queue (8)](#stack--queue-8)
+		- [Recursion & Basic Math (9)](#recursion--basic-math-9)
 	- [Core Algorithms & Structures (2–4 months)](#core-algorithms--structures-24-months)
-		- [Linked List](#linked-list-12)
-		- [Binary Search](#binary-search-12)
-		- [Sorting & Intervals](#sorting--intervals-10)
-		- [Two Pointers](#two-pointers-10)
-		- [Sliding Window](#sliding-window-12)
-		- [Trees (DFS / BFS)](#trees-dfs--bfs-18)
-		- [Heap / Priority Queue](#heap--priority-queue-10)
-		- [Basic Graphs](#basic-graphs-10)
-		- [Greedy](#greedy-8)
-		- [Intro Dynamic Programming](#intro-dynamic-programming-18)
+		- [Linked List (13)](#linked-list-13)
+		- [Binary Search (13)](#binary-search-13)
+		- [Sorting & Intervals (10)](#sorting--intervals-10)
+		- [Two Pointers (10)](#two-pointers-10)
+		- [Sliding Window (12)](#sliding-window-12)
+		- [Trees (DFS / BFS) (18)](#trees-dfs--bfs-18)
+		- [Heap / Priority Queue (10)](#heap--priority-queue-10)
+		- [Basic Graphs (10)](#basic-graphs-10)
+		- [Greedy (8)](#greedy-8)
+		- [Intro Dynamic Programming (18)](#intro-dynamic-programming-18)
 	- [Advanced Level (2–3 months)](#advanced-level-23-months)
-		- [Advanced Dynamic Programming](#advanced-dynamic-programming-18)
-		- [Backtracking](#backtracking-10)
-		- [Graph Algorithms (Dijkstra, Union-Find)](#graph-algorithms-dijkstra-union-find-10)
-		- [Trie](#trie-6)
-		- [Bit Manipulation](#bit-manipulation-6)
-		- [Interval Problems](#interval-problems-5)
-		- [Monotonic Stack / Queue](#monotonic-stack--queue-5)
+		- [Advanced Dynamic Programming (18)](#advanced-dynamic-programming-18)
+		- [Backtracking (10)](#backtracking-10)
+		- [Graph Algorithms (Dijkstra, Union-Find) (10)](#graph-algorithms-dijkstra-union-find-10)
+		- [Trie (6)](#trie-6)
+		- [Bit Manipulation ()](#bit-manipulation-6)
+		- [Interval Problems] (5)(#interval-problems-5)
+		- [Monotonic Stack / Queue (5)](#monotonic-stack--queue-5)
 - [Notes](#notes)
 - [Previously Solved (will merge latter)](#previously-solved-will-merge-latter)
 
@@ -45,24 +45,50 @@ Goal: indexing, traversal, in-place logic, frequency counting, window control, r
 
 > This section will include **~50 problems**.   
 
-### Arrays & Strings (15)
+### Arrays & Strings (23)
 | id_number | title (problem link) | solution (file link) | difficulty | data structure | algorithm |
 |---|---|---|---|---|---|
-| 1 | [Two Sum](https://leetcode.com/problems/two-sum/) | [rust](src/foundations/arrays_and_strings/lc_0001_two_sum.rs) | Easy | Array | Hash / Two Pointers |
-| 2 | [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) |  | Easy | Array | Greedy |
-| 3 | [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/) | [rust](src/foundations/arrays_and_strings/lc_0217_contains_duplicate.rs) | Easy | Array | HashSet |
-| 4 | [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/) |  | Medium | Array | Prefix Products |
-| 5 | [Maximum Subarray](https://leetcode.com/problems/maximum-subarray/) |  | Easy | Array | Kadane's |
-| 6 | [Move Zeroes](https://leetcode.com/problems/move-zeroes/) |  | Easy | Array | Two Pointers |
-| 7 | [Rotate Array](https://leetcode.com/problems/rotate-array/) |  | Medium | Array | Reverse / Cyclic |
-| 8 | [Valid Anagram](https://leetcode.com/problems/valid-anagram/) | [rust](src/foundations/arrays_and_strings/lc_0242_valid_anagram.rs) | Easy | String | Counter / HashMap |
-| 9 | [Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/) |  | Easy | String | Trie / Iteration |
-| 10 | [Plus One](https://leetcode.com/problems/plus-one/) | [rust](src/foundations/arrays_and_strings/lc_0066_plus_one.rs) | Easy | Array | Simulation |
-| 11 | [Majority Element](https://leetcode.com/problems/majority-element/) |  | Easy | Array | HashMap / Boyer-Moore |
-| 12 | [Find Pivot Index](https://leetcode.com/problems/find-pivot-index/) | [rust](src/foundations/arrays_and_strings/lc_0724_find_pivot_index.rs) | Easy | Array | Prefix Sum |
-| 13 | [Squares of a Sorted Array](https://leetcode.com/problems/squares-of-a-sorted-array/) | [rust](src/foundations/arrays_and_strings/lc_0977_squares_of_a_sorted_array.rs) | Easy | Array | Two Pointers |
-| 14 | [Is Subsequence](https://leetcode.com/problems/is-subsequence/) |  | Easy | String | Two Pointers |
-| 15 | [String Compression](https://leetcode.com/problems/string-compression/) |  | Easy | String | Two Pointers |
+| 1 | [Fizz Buzz](https://leetcode.com/problems/fizz-buzz) | [rust](src/foundations/arrays_and_strings/lc_0412_fizz_buzz.rs) | Easy | Primitive | Basic |
+| 2 | [Two Sum](https://leetcode.com/problems/two-sum/) | [rust](src/foundations/arrays_and_strings/lc_0001_two_sum.rs) | Easy | Array | Hash / Two Pointers |
+| 3 | [Max Consecutive Ones](https://leetcode.com/problems/max-consecutive-ones) | [rust](src/foundations/arrays_and_strings/lc_0485_max_consecutive_ones.rs) | Easy | Array | Linear scan |
+| 4 | [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) |  | Easy | Array | Greedy |
+| 5 | [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/) | [rust](src/foundations/arrays_and_strings/lc_0217_contains_duplicate.rs) | Easy | Array | HashSet |
+| 6 | [Find Pivot Index](https://leetcode.com/problems/find-pivot-index/) | [rust](src/foundations/arrays_and_strings/lc_0724_find_pivot_index.rs) | Easy | Array | Prefix Sum |
+| 7 | [Squares of a Sorted Array](https://leetcode.com/problems/squares-of-a-sorted-array/) | [rust](src/foundations/arrays_and_strings/lc_0977_squares_of_a_sorted_array.rs) | Easy | Array | Two Pointers |
+| 8 | [Plus One](https://leetcode.com/problems/plus-one/) | [rust](src/foundations/arrays_and_strings/lc_0066_plus_one.rs) | Easy | Array | Simulation |
+| 9 | [Valid Anagram](https://leetcode.com/problems/valid-anagram/) | [rust](src/foundations/arrays_and_strings/lc_0242_valid_anagram.rs) | Easy | String | Counter / HashMap |
+| 10 | [Move Zeroes](https://leetcode.com/problems/move-zeroes/) |  | Easy | Array | Two Pointers |
+| 11 | [Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/) |  | Easy | String | Trie / Iteration |
+| 12 | [Largest Number At Least Twice of Others](https://leetcode.com/problems/largest-number-at-least-twice-of-others) | [rust](src/linear/array/greedy/lc_0747_largest_number_at_least_twice_of_others.rs) | Easy | Array | greedy |
+| 13 | [Find Numbers with Even Number of Digits](https://leetcode.com/problems/find-numbers-with-even-number-of-digits) | [rust](src/foundations/arrays_and_strings/lc_1295_find_numbers_with_even_number_of_digits.rs) | Easy | Array | Counting |
+| 14 | [Minimum Penalty for a Shop](https://leetcode.com/problems/minimum-penalty-for-a-shop) | [rust](src/linear/array/prefix_sum/lc_2483_minimum_penalty_for_a_shop.rs) | Medium | Array | Prefix sum |
+| 15 | [Apple Redistribution into Boxes](https://leetcode.com/problems/apple-redistribution-into-boxes) | [rust](src/linear/array/greedy/lc_3074_apple_redistribution_into_boxes.rs) | Easy | Array | greedy |
+| 16 | [Coupon Code Validator](https://leetcode.com/problems/coupon-code-validator) | [rust](src/linear/array/search/lc_3606_coupon_code_validator.rs) | Easy | Array | Filter |
+| 17 | [Maximize Happiness of Selected Children](https://leetcode.com/problems/maximize-happiness-of-selected-children/description) | [rust](src/linear/array/greedy/lc_3075_maximize_happiness_of_selected_children.rs) | Medium | Array | greedy |
+| 18 | [Majority Element](https://leetcode.com/problems/majority-element/) |  | Easy | Array | HashMap / Boyer-Moore |
+| 19 | [Is Subsequence](https://leetcode.com/problems/is-subsequence/) |  | Easy | String | Two Pointers |
+| 20 | [String Compression](https://leetcode.com/problems/string-compression/) |  | Easy | String | Two Pointers |
+| 21 | [Maximum Subarray](https://leetcode.com/problems/maximum-subarray/) |  | Easy | Array | Kadane's |
+| 22 | [Rotate Array](https://leetcode.com/problems/rotate-array/) |  | Medium | Array | Reverse / Cyclic |
+| 23 | [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/) |  | Medium | Array | Prefix Products |
+
+---
+
+### Two Pointers & Sliding Window (11)
+
+| id_number | title (problem link) | solution (file link) | difficulty | data structure | algorithm |
+|---|---|---|---|---|---|
+| 1 | [Valid Palindrome](https://leetcode.com/problems/valid-palindrome/) | [rust](src/foundations/two_pointers_and_sliding_window/lc_0125_valid_palindrome.rs) | Easy | String | Two Pointers |
+| 2 | [Reverse String](https://leetcode.com/problems/reverse-string/) |  | Easy | String | Two Pointers |
+| 3 | [Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/) | [rust](src/foundations/two_pointers_and_sliding_window/lc_0088_merge_sorted_array.rs) | Easy | Array | Two Pointers |
+| 4 | [Remove Element](https://leetcode.com/problems/remove-element) | [rust](src/foundations/two_pointers_and_sliding_window/lc_0027_remove_element.rs) | Easy | Array | Two pointers |
+| 5 | [Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/) | [rust](src/foundations/two_pointers_and_sliding_window/lc_0026_remove_duplicates_from_sorted_array.rs) | Easy | Array | Two Pointers |
+| 6 | [Element Appearing More Than 25% in Sorted Array](https://leetcode.com/problems/element-appearing-more-than-25-in-sorted-array) | [rust](src/foundations/two_pointers_and_sliding_window/lc_1287_element_appearing_more_than_25_percent_in_sorted_array.rs) | Easy | Array | Sliding Window |
+| 7 | [Container With Most Water](https://leetcode.com/problems/container-with-most-water/) |  | Medium | Array | Two Pointers |
+| 8 | [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/) |  | Medium | String | Sliding Window |
+| 9 | [Minimum Size Subarray Sum](https://leetcode.com/problems/minimum-size-subarray-sum/) |  | Medium | Array | Sliding Window |
+| 10 | [Find All Anagrams in a String](https://leetcode.com/problems/find-all-anagrams-in-a-string/) |  | Medium | String | Sliding Window |
+| 11 | [Max Consecutive Ones III](https://leetcode.com/problems/max-consecutive-ones-iii/) |  | Medium | Array | Sliding Window |
 
 ---
 
@@ -98,34 +124,19 @@ Goal: indexing, traversal, in-place logic, frequency counting, window control, r
 
 ---
 
-### Two Pointers & Sliding Window (9)
-
-| id_number | title (problem link) | solution (file link) | difficulty | data structure | algorithm |
-|---|---|---|---|---|---|
-| 1 | [Valid Palindrome](https://leetcode.com/problems/valid-palindrome/) | [rust](src/foundations/two_pointers_and_sliding_window/lc_0125_valid_palindrome.rs) | Easy | String | Two Pointers |
-| 2 | [Reverse String](https://leetcode.com/problems/reverse-string/) |  | Easy | String | Two Pointers / Recursion |
-| 3 | [Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/) | [rust](src/foundations/two_pointers_and_sliding_window/lc_0088_merge_sorted_array.rs) | Easy | Array | Two Pointers |
-| 4 | [Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/) | [rust](src/foundations/two_pointers_and_sliding_window/lc_0026_remove_duplicates_from_sorted_array.rs) | Easy | Array | Two Pointers |
-| 5 | [Container With Most Water](https://leetcode.com/problems/container-with-most-water/) |  | Medium | Array | Two Pointers |
-| 6 | [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/) |  | Medium | String | Sliding Window |
-| 7 | [Minimum Size Subarray Sum](https://leetcode.com/problems/minimum-size-subarray-sum/) |  | Medium | Array | Sliding Window |
-| 8 | [Find All Anagrams in a String](https://leetcode.com/problems/find-all-anagrams-in-a-string/) |  | Medium | String | Sliding Window |
-| 9 | [Max Consecutive Ones III](https://leetcode.com/problems/max-consecutive-ones-iii/) |  | Medium | Array | Sliding Window |
-
----
-
-### Recursion & Basic Math (8)
+### Recursion & Basic Math (9)
 
 | id_number | title (problem link) | solution (file link) | difficulty | data structure | algorithm |
 |---|---|---|---|---|---|
 | 1 | [Fibonacci Number](https://leetcode.com/problems/fibonacci-number/) |  | Easy | Integer | Recursion |
-| 2 | [Climbing Stairs](https://leetcode.com/problems/climbing-stairs/) |  | Easy | Integer | Recursion / DP |
-| 3 | [Power of Two](https://leetcode.com/problems/power-of-two/) |  | Easy | Integer | Math |
-| 4 | [Reverse String (recursive)](https://leetcode.com/problems/reverse-string/) |  | Easy | String | Recursion |
-| 5 | [Factorial Trailing Zeroes](https://leetcode.com/problems/factorial-trailing-zeroes/) |  | Easy | Integer | Math |
-| 6 | [Count Primes](https://leetcode.com/problems/count-primes/) |  | Medium | Integer | Sieve / Math |
-| 7 | [Sqrt(x)](https://leetcode.com/problems/sqrtx/) |  | Easy | Integer | Binary Search |
-| 8 | [Roman to Integer](https://leetcode.com/problems/roman-to-integer/) |  | Easy | String | Math / Simulation |
+| 2 | [Transpose Matrix](https://leetcode.com/problems/transpose-matrix) | [rust](src/foundations/recursion_and_basic_math/lc_0867_transpose_matrix.rs) | Easy | Array | Math |
+| 3 | [Climbing Stairs](https://leetcode.com/problems/climbing-stairs/) |  | Easy | Integer | Recursion / DP |
+| 4 | [Power of Two](https://leetcode.com/problems/power-of-two/) |  | Easy | Integer | Math |
+| 5 | [Reverse String (recursive)](https://leetcode.com/problems/reverse-string/) |  | Easy | String | Recursion |
+| 6 | [Factorial Trailing Zeroes](https://leetcode.com/problems/factorial-trailing-zeroes/) |  | Easy | Integer | Math |
+| 7 | [Count Primes](https://leetcode.com/problems/count-primes/) |  | Medium | Integer | Sieve / Math |
+| 8 | [Sqrt(x)](https://leetcode.com/problems/sqrtx/) |  | Easy | Integer | Binary Search |
+| 9 | [Roman to Integer](https://leetcode.com/problems/roman-to-integer/) |  | Easy | String | Math / Simulation |
 
 ---
 
@@ -135,37 +146,39 @@ Goal: indexing, traversal, in-place logic, frequency counting, window control, r
 
 > This section will include **120 problems**.  
 
-### Linked List (12)
+### Linked List (13)
 | id_number | title (problem link) | solution (file link) | difficulty | data structure | algorithm |
 |----------|----------------------|----------------------|------------|----------------|-----------|
-| 1 | [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/) |  | Easy | Linked List | Two Pointers |
-| 2 | [Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/) | [python](src/core/linked_list/lc_0141_linked_list_cycle.py) | Easy | Linked List | Fast & Slow |
-| 3 | [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/) |  | Easy | Linked List | Two Pointers |
-| 4 | [Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/) |  | Medium | Linked List | Two Pointers |
-| 5 | [Intersection of Two Linked Lists](https://leetcode.com/problems/intersection-of-two-linked-lists/) |  | Easy | Linked List | Two Pointers |
-| 6 | [Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list/) |  | Easy | Linked List | Fast & Slow |
-| 7 | [Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list/) |  | Easy | Linked List | Fast & Slow |
-| 8 | [Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii/) |  | Medium | Linked List | Cycle Detection |
-| 9 | [Add Two Numbers](https://leetcode.com/problems/add-two-numbers/) |  | Medium | Linked List | Simulation |
-| 10 | [Odd Even Linked List](https://leetcode.com/problems/odd-even-linked-list/) |  | Medium | Linked List | Pointer Manipulation |
-| 11 | [Swap Nodes in Pairs](https://leetcode.com/problems/swap-nodes-in-pairs/) |  | Medium | Linked List | Recursion |
-| 12 | [Rotate List](https://leetcode.com/problems/rotate-list/) |  | Medium | Linked List | Pointer Manipulation |
+| 1 | [Design Linked List](https://leetcode.com/problems/design-linked-list) | [rust](src/core/linked_list/lc_0707_design_a_linked_list.rs), [safe rust](src/core/linked_list/lc_0707_design_a_linked_list_safe.rs) | Medium | Linked List | Implementation |
+| 2 | [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/) |  | Easy | Linked List | Two Pointers |
+| 3 | [Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/) | [python](src/core/linked_list/lc_0141_linked_list_cycle.py) | Easy | Linked List | Fast & Slow |
+| 4 | [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/) |  | Easy | Linked List | Two Pointers |
+| 5 | [Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/) |  | Medium | Linked List | Two Pointers |
+| 6 | [Intersection of Two Linked Lists](https://leetcode.com/problems/intersection-of-two-linked-lists/) |  | Easy | Linked List | Two Pointers |
+| 7 | [Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list/) |  | Easy | Linked List | Fast & Slow |
+| 8 | [Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list/) |  | Easy | Linked List | Fast & Slow |
+| 9 | [Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii/) |  | Medium | Linked List | Cycle Detection |
+| 10 | [Add Two Numbers](https://leetcode.com/problems/add-two-numbers/) |  | Medium | Linked List | Simulation |
+| 11 | [Odd Even Linked List](https://leetcode.com/problems/odd-even-linked-list/) |  | Medium | Linked List | Pointer Manipulation |
+| 12 | [Swap Nodes in Pairs](https://leetcode.com/problems/swap-nodes-in-pairs/) |  | Medium | Linked List | Recursion |
+| 13 | [Rotate List](https://leetcode.com/problems/rotate-list/) |  | Medium | Linked List | Pointer Manipulation |
 
-### Binary Search (12)
+### Binary Search (13)
 | id_number | title (problem link) | solution (file link) | difficulty | data structure | algorithm |
 |----------|----------------------|----------------------|------------|----------------|-----------|
 | 1 | [Binary Search](https://leetcode.com/problems/binary-search/) | [rust](src/core/binary_search/lc_0704_binary_search.rs) | Easy | Array | Binary Search |
-| 2 | [Search Insert Position](https://leetcode.com/problems/search-insert-position/) |  | Easy | Array | Binary Search |
-| 3 | [Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/) |  | Medium | Array | Binary Search |
-| 4 | [Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/) |  | Medium | Array | Binary Search |
-| 5 | [Find First and Last Position of Element](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/) |  | Medium | Array | Binary Search |
-| 6 | [Peak Element](https://leetcode.com/problems/find-peak-element/) |  | Medium | Array | Binary Search |
-| 7 | [Sqrt(x)](https://leetcode.com/problems/sqrtx/) |  | Easy | Math | Binary Search |
-| 8 | [Koko Eating Bananas](https://leetcode.com/problems/koko-eating-bananas/) |  | Medium | Array | Binary Search on Answer |
-| 9 | [Capacity To Ship Packages Within D Days](https://leetcode.com/problems/capacity-to-ship-packages-within-d-days/) |  | Medium | Array | Binary Search on Answer |
-| 10 | [Find K Closest Elements](https://leetcode.com/problems/find-k-closest-elements/) |  | Medium | Array | Binary Search |
-| 11 | [Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/) |  | Hard | Array | Binary Search |
-| 12 | [Split Array Largest Sum](https://leetcode.com/problems/split-array-largest-sum/) |  | Hard | Array | Binary Search on Answer |
+| 2 | [Count Negative Numbers in a Sorted Matrix](https://leetcode.com/problems/count-negative-numbers-in-a-sorted-matrix) | [rust](src/core/binary_search/lc_1351_count_negative_numbers_in_a_sorted_matrix.rs) | Easy | Array | Binary search |
+| 3 | [Search Insert Position](https://leetcode.com/problems/search-insert-position/) |  | Easy | Array | Binary Search |
+| 4 | [Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/) |  | Medium | Array | Binary Search |
+| 5 | [Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/) |  | Medium | Array | Binary Search |
+| 6 | [Find First and Last Position of Element](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/) |  | Medium | Array | Binary Search |
+| 7 | [Peak Element](https://leetcode.com/problems/find-peak-element/) |  | Medium | Array | Binary Search |
+| 8 | [Sqrt(x)](https://leetcode.com/problems/sqrtx/) |  | Easy | Math | Binary Search |
+| 9 | [Koko Eating Bananas](https://leetcode.com/problems/koko-eating-bananas/) |  | Medium | Array | Binary Search on Answer |
+| 10 | [Capacity To Ship Packages Within D Days](https://leetcode.com/problems/capacity-to-ship-packages-within-d-days/) |  | Medium | Array | Binary Search on Answer |
+| 11 | [Find K Closest Elements](https://leetcode.com/problems/find-k-closest-elements/) |  | Medium | Array | Binary Search |
+| 12 | [Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/) |  | Hard | Array | Binary Search |
+| 13 | [Split Array Largest Sum](https://leetcode.com/problems/split-array-largest-sum/) |  | Hard | Array | Binary Search on Answer |
 
 ### Sorting & Intervals (10)
 | id_number | title (problem link) | solution (file link) | difficulty | data structure | algorithm |
@@ -421,24 +434,3 @@ Solve these to master **advanced patterns, state design, and algorithmic thinkin
 - Re-solve problems after **1–2 weeks** to retain patterns.  
 - Focus on **deriving solutions**, not memorizing.  
 - Use the `solution` column to link your own solution files.  
-
-
-
-# Previously Solved (will merge latter)
-| id_number | title (problem link) | solution (file link) | difficulty | data structure | algorithm |
-| --- | --- | --- | --- | --- | --- |
-| 0027 | [Remove Element](https://leetcode.com/problems/remove-element) | [rust](src/linear/array/two_pointers/lc_0027_remove_element.rs) | Easy | Array | Two pointers |
-| 0377 | [Combination Sum IV](https://leetcode.com/problems/combination-sum-iv) | [rust](src/linear/array/dp/lc_0377_combination_sum_iv.rs) | Medium | Array | Dynamic programming |
-| 0412 | [Fizz Buzz](https://leetcode.com/problems/fizz-buzz) | [rust](src/primitive/lc_0412_fizz_buzz.rs) | Easy | Primitive | Basic |
-| 0485 | [Max Consecutive Ones](https://leetcode.com/problems/max-consecutive-ones) | [rust](src/linear/array/search/lc_0485_max_consecutive_ones.rs) | Easy | Array | Linear scan |
-| 0707 | [Design Linked List](https://leetcode.com/problems/design-linked-list) | [rust](src/linear/linked_list/lc_0707_design_a_linked_list.rs), [safe rust](src/linear/linked_list/lc_0707_design_a_linked_list_safe.rs) | Medium | Linked List | Implementation |
-| 0747 | [Largest Number At Least Twice of Others](https://leetcode.com/problems/largest-number-at-least-twice-of-others) | [rust](src/linear/array/greedy/lc_0747_largest_number_at_least_twice_of_others.rs) | Easy | Array | greedy |
-| 0867 | [Transpose Matrix](https://leetcode.com/problems/transpose-matrix) | [rust](src/linear/array/math/lc_0867_transpose_matrix.rs) | Easy | Array | Math |
-| 0944 | [Delete Columns to Make Sorted](https://leetcode.com/problems/delete-columns-to-make-sorted) | [rust](src/linear/array/greedy/lc_0944_delete_columns_to_make_sorted.rs) | Easy | Array | greedy |
-| 1287 | [Element Appearing More Than 25% in Sorted Array](https://leetcode.com/problems/element-appearing-more-than-25-in-sorted-array) | [rust](src/linear/array/sliding_window/lc_1287_element_appearing_more_than_25_percent_in_sorted_array.rs) | Easy | Array | Sliding Window |
-| 1295 | [Find Numbers with Even Number of Digits](https://leetcode.com/problems/find-numbers-with-even-number-of-digits) | [rust](src/linear/array/search/lc_1295_find_numbers_with_even_number_of_digits.rs) | Easy | Array | Counting |
-| 1351 | [Count Negative Numbers in a Sorted Matrix](https://leetcode.com/problems/count-negative-numbers-in-a-sorted-matrix) | [rust](src/linear/array/search/lc_1351_count_negative_numbers_in_a_sorted_matrix.rs) | Easy | Array | Binary search |
-| 2483 | [Minimum Penalty for a Shop](https://leetcode.com/problems/minimum-penalty-for-a-shop) | [rust](src/linear/array/prefix_sum/lc_2483_minimum_penalty_for_a_shop.rs) | Medium | Array | Prefix sum |
-| 3074 | [Apple Redistribution into Boxes](https://leetcode.com/problems/apple-redistribution-into-boxes) | [rust](src/linear/array/greedy/lc_3074_apple_redistribution_into_boxes.rs) | Easy | Array | greedy |
-| 3075 | [Maximize Happiness of Selected Children](https://leetcode.com/problems/maximize-happiness-of-selected-children/description) | [rust](src/linear/array/greedy/lc_3075_maximize_happiness_of_selected_children.rs) | Medium | Array | greedy |
-| 3606 | [Coupon Code Validator](https://leetcode.com/problems/coupon-code-validator) | [rust](src/linear/array/search/lc_3606_coupon_code_validator.rs) | Easy | Array | Filter |
