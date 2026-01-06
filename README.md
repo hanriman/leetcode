@@ -10,7 +10,7 @@ Solve them in order to **build strong problem-solving skills, pattern recognitio
 ## Table of Contents LeetCode and Deep-ML
 - [Complete DSA Problem List](#complete-dsa-problem-list)
 	- [Foundations (1–2 months)](#foundations-12-months)
-		- [Arrays & Strings (23)](#arrays--strings-23)
+		- [Arrays & Strings (24)](#arrays--strings-24)
 		- [Two Pointers & Sliding Window (11)](#two-pointers--sliding-window-11)
 		- [Hashing (10)](#hashing-10)
 		- [Stack & Queue (8)](#stack--queue-8)
@@ -44,7 +44,7 @@ Goal: indexing, traversal, in-place logic, frequency counting, window control, r
 
 > This section will include **~60 problems**.   
 
-### Arrays & Strings (23)
+### Arrays & Strings (24)
 | id_number | title (problem link) | solution (file link) | difficulty | data structure | algorithm |
 |---|---|---|---|---|---|
 | 1 | [Fizz Buzz](https://leetcode.com/problems/fizz-buzz) | [rust](src/foundations/arrays_and_strings/lc_0412_fizz_buzz.rs) | Easy | Primitive | Basic |

@@ -1,4 +1,4 @@
-use std::collections: {HashMap, HashSet};
+use std::collections::{HashMap, HashSet};
 
 fn main() {
     let nums = vec![1, 2, 3, 4, 5, 3];
@@ -26,7 +26,7 @@ impl Solution {
 
         for num in nums {
             match seen.insert(num, num) {
-                Some(x) => return true,
+                Some(_x) => return true,
                 None => {}
             }
         }
