@@ -4,10 +4,10 @@ han's leetcode journey
 
 # Complete DSA Problem List
 
-This is a **curated DSA roadmap** with over **180 problems**, divided into three stages: Foundations, Core, and Advanced.  
+This is a **curated DSA roadmap** with over **190 problems**, divided into three stages: Foundations, Core, and Advanced.  
 Solve them in order to **build strong problem-solving skills, pattern recognition, and interview readiness**.
 
-## Table of Contents
+## Table of Contents LeetCode and Deep-ML
 - [Complete DSA Problem List](#complete-dsa-problem-list)
 	- [Foundations (1–2 months)](#foundations-12-months)
 		- [Arrays & Strings (23)](#arrays--strings-23)
@@ -35,7 +35,6 @@ Solve them in order to **build strong problem-solving skills, pattern recognitio
 		- [Interval Problems (5)](#interval-problems-5)
 		- [Monotonic Stack / Queue (5)](#monotonic-stack--queue-5)
 - [Notes](#notes)
-- [Previously Solved (will merge latter)](#previously-solved-will-merge-latter)
 
 ---
 
@@ -58,19 +57,20 @@ Goal: indexing, traversal, in-place logic, frequency counting, window control, r
 | 8 | [Plus One](https://leetcode.com/problems/plus-one/) | [rust](src/foundations/arrays_and_strings/lc_0066_plus_one.rs) | Easy | Array | Simulation |
 | 9 | [Valid Anagram](https://leetcode.com/problems/valid-anagram/) | [rust](src/foundations/arrays_and_strings/lc_0242_valid_anagram.rs) | Easy | String | Counter / HashMap |
 | 10 | [Move Zeroes](https://leetcode.com/problems/move-zeroes/) |  | Easy | Array | Two Pointers |
-| 11 | [Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/) |  | Easy | String | Trie / Iteration |
+| 11 | [Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/) | [rust](src/foundations/arrays_and_strings/lc_0014_longest_common_prefix.rs) | Easy | String | Trie / Iteration |
 | 12 | [Largest Number At Least Twice of Others](https://leetcode.com/problems/largest-number-at-least-twice-of-others) | [rust](src/foundations/arrays_and_strings/lc_0747_largest_number_at_least_twice_of_others.rs) | Easy | Array | greedy |
 | 13 | [Find Numbers with Even Number of Digits](https://leetcode.com/problems/find-numbers-with-even-number-of-digits) | [rust](src/foundations/arrays_and_strings/lc_1295_find_numbers_with_even_number_of_digits.rs) | Easy | Array | Counting |
 | 14 | [Minimum Penalty for a Shop](https://leetcode.com/problems/minimum-penalty-for-a-shop) | [rust](src/foundations/arrays_and_strings/lc_2483_minimum_penalty_for_a_shop.rs) | Medium | Array | Prefix sum |
 | 15 | [Apple Redistribution into Boxes](https://leetcode.com/problems/apple-redistribution-into-boxes) | [rust](src/foundations/arrays_and_strings/lc_3074_apple_redistribution_into_boxes.rs) | Easy | Array | greedy |
 | 16 | [Coupon Code Validator](https://leetcode.com/problems/coupon-code-validator) | [rust](src/foundations/arrays_and_strings/lc_3606_coupon_code_validator.rs) | Easy | Array | Filter |
 | 17 | [Maximize Happiness of Selected Children](https://leetcode.com/problems/maximize-happiness-of-selected-children/description) | [rust](src/foundations/arrays_and_strings/lc_3075_maximize_happiness_of_selected_children.rs) | Medium | Array | greedy |
-| 18 | [Majority Element](https://leetcode.com/problems/majority-element/) |  | Easy | Array | HashMap / Boyer-Moore |
-| 19 | [Is Subsequence](https://leetcode.com/problems/is-subsequence/) |  | Easy | String | Two Pointers |
-| 20 | [String Compression](https://leetcode.com/problems/string-compression/) |  | Easy | String | Two Pointers |
-| 21 | [Maximum Subarray](https://leetcode.com/problems/maximum-subarray/) |  | Easy | Array | Kadane's |
-| 22 | [Rotate Array](https://leetcode.com/problems/rotate-array/) |  | Medium | Array | Reverse / Cyclic |
-| 23 | [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/) |  | Medium | Array | Prefix Products |
+| 18 | [N-Repeated Element in Size 2N Array](https://leetcode.com/problems/n-repeated-element-in-size-2n-array) | [rust](src/foundations/arrays_and_strings/lc_0961_n_repeated_element_in_size_2n_array.rs) | Medium | Array | greedy |
+| 19 | [Majority Element](https://leetcode.com/problems/majority-element/) |  | Easy | Array | HashMap / Boyer-Moore |
+| 20 | [Is Subsequence](https://leetcode.com/problems/is-subsequence/) |  | Easy | String | Two Pointers |
+| 21 | [String Compression](https://leetcode.com/problems/string-compression/) |  | Easy | String | Two Pointers |
+| 22 | [Maximum Subarray](https://leetcode.com/problems/maximum-subarray/) |  | Easy | Array | Kadane's |
+| 23 | [Rotate Array](https://leetcode.com/problems/rotate-array/) |  | Medium | Array | Reverse / Cyclic |
+| 24 | [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/) |  | Medium | Array | Prefix Products |
 
 ---
 

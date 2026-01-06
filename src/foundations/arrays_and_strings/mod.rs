@@ -1,0 +1,17 @@
+mod lc_0001_two_sum;
+mod lc_0014_longest_common_prefix;
+mod lc_0066_plus_one;
+mod lc_0217_contains_duplicate;
+mod lc_0242_valid_anagram;
+mod lc_0412_fizz_buzz;
+mod lc_0485_max_consecutive_ones;
+mod lc_0724_find_pivot_index;
+mod lc_0747_largest_number_at_least_twice_of_others;
+mod lc_0961_n_repeated_element_in_size_2n_array;
+mod lc_0977_squares_of_a_sorted_array;
+mod lc_1295_find_numbers_with_even_number_of_digits;
+mod lc_14_longest_common_prefix;
+mod lc_2483_minimum_penalty_for_a_shop;
+mod lc_3074_apple_redistribution_into_boxes;
+mod lc_3075_maximize_happiness_of_selected_children;
+mod lc_3606_coupon_code_validator;
