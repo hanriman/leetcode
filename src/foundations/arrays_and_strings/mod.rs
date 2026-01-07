@@ -1,8 +1,10 @@
 mod lc_0001_two_sum;
 mod lc_0014_longest_common_prefix;
 mod lc_0066_plus_one;
+mod lc_0121_best_time_to_buy_and_sell_stock;
 mod lc_0217_contains_duplicate;
 mod lc_0242_valid_anagram;
+mod lc_0283_move_zeroes;
 mod lc_0412_fizz_buzz;
 mod lc_0485_max_consecutive_ones;
 mod lc_0724_find_pivot_index;

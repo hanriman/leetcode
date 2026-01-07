@@ -11,7 +11,9 @@ mod foundations;
 // impl Solution {
 //     // time complexity:
 //     // space complexity:
-//
+//     pub fn function(input: i32) -> i32 {
+//         input
+//     }
 // }
 //
 // #[cfg(test)]
@@ -20,6 +22,8 @@ mod foundations;
 //
 //     #[test]
 //     fn test1() {
-//         assert_eq!(Solution::, );
+//         let input = 0;
+//         let output = 0;
+//         assert_eq!(Solution::function(input), output);
 //     }
 // }

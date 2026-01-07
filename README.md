@@ -50,13 +50,13 @@ Goal: indexing, traversal, in-place logic, frequency counting, window control, r
 | 1 | [Fizz Buzz](https://leetcode.com/problems/fizz-buzz) | [rust](src/foundations/arrays_and_strings/lc_0412_fizz_buzz.rs) | Easy | Primitive | Basic |
 | 2 | [Two Sum](https://leetcode.com/problems/two-sum/) | [rust](src/foundations/arrays_and_strings/lc_0001_two_sum.rs) | Easy | Array | Hash / Two Pointers |
 | 3 | [Max Consecutive Ones](https://leetcode.com/problems/max-consecutive-ones) | [rust](src/foundations/arrays_and_strings/lc_0485_max_consecutive_ones.rs) | Easy | Array | Linear scan |
-| 4 | [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) |  | Easy | Array | Greedy |
+| 4 | [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) | [rust](src/foundations/arrays_and_strings/lc_0121_best_time_to_buy_and_sell_stock.rs) | Easy | Array | Greedy |
 | 5 | [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/) | [rust](src/foundations/arrays_and_strings/lc_0217_contains_duplicate.rs) | Easy | Array | HashSet |
 | 6 | [Find Pivot Index](https://leetcode.com/problems/find-pivot-index/) | [rust](src/foundations/arrays_and_strings/lc_0724_find_pivot_index.rs) | Easy | Array | Prefix Sum |
 | 7 | [Squares of a Sorted Array](https://leetcode.com/problems/squares-of-a-sorted-array/) | [rust](src/foundations/arrays_and_strings/lc_0977_squares_of_a_sorted_array.rs) | Easy | Array | Two Pointers |
 | 8 | [Plus One](https://leetcode.com/problems/plus-one/) | [rust](src/foundations/arrays_and_strings/lc_0066_plus_one.rs) | Easy | Array | Simulation |
 | 9 | [Valid Anagram](https://leetcode.com/problems/valid-anagram/) | [rust](src/foundations/arrays_and_strings/lc_0242_valid_anagram.rs) | Easy | String | Counter / HashMap |
-| 10 | [Move Zeroes](https://leetcode.com/problems/move-zeroes/) |  | Easy | Array | Two Pointers |
+| 10 | [Move Zeroes](https://leetcode.com/problems/move-zeroes/) | [rust](src/foundations/arrays_and_strings/lc_0283_move_zeroes.rs) | Easy | Array | Two Pointers |
 | 11 | [Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/) | [rust](src/foundations/arrays_and_strings/lc_0014_longest_common_prefix.rs) | Easy | String | Trie / Iteration |
 | 12 | [Largest Number At Least Twice of Others](https://leetcode.com/problems/largest-number-at-least-twice-of-others) | [rust](src/foundations/arrays_and_strings/lc_0747_largest_number_at_least_twice_of_others.rs) | Easy | Array | greedy |
 | 13 | [Find Numbers with Even Number of Digits](https://leetcode.com/problems/find-numbers-with-even-number-of-digits) | [rust](src/foundations/arrays_and_strings/lc_1295_find_numbers_with_even_number_of_digits.rs) | Easy | Array | Counting |
