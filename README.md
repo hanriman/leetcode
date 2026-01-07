@@ -65,8 +65,8 @@ Goal: indexing, traversal, in-place logic, frequency counting, window control, r
 | 16 | [Coupon Code Validator](https://leetcode.com/problems/coupon-code-validator) | [rust](src/foundations/arrays_and_strings/lc_3606_coupon_code_validator.rs) | Easy | Array | Filter |
 | 17 | [Maximize Happiness of Selected Children](https://leetcode.com/problems/maximize-happiness-of-selected-children/description) | [rust](src/foundations/arrays_and_strings/lc_3075_maximize_happiness_of_selected_children.rs) | Medium | Array | greedy |
 | 18 | [N-Repeated Element in Size 2N Array](https://leetcode.com/problems/n-repeated-element-in-size-2n-array) | [rust](src/foundations/arrays_and_strings/lc_0961_n_repeated_element_in_size_2n_array.rs) | Medium | Array | greedy |
-| 19 | [Majority Element](https://leetcode.com/problems/majority-element/) |  | Easy | Array | HashMap / Boyer-Moore |
-| 20 | [Is Subsequence](https://leetcode.com/problems/is-subsequence/) |  | Easy | String | Two Pointers |
+| 19 | [Majority Element](https://leetcode.com/problems/majority-element/) |  [rust](src/foundations/arrays_and_strings/lc_0169_majority_element.rs)| Easy | Array | HashMap / Boyer-Moore |
+| 20 | [Is Subsequence](https://leetcode.com/problems/is-subsequence/) | [rust](src/foundations/arrays_and_strings/lc_0392_is_subsequence.rs) | Easy | String | Two Pointers |
 | 21 | [String Compression](https://leetcode.com/problems/string-compression/) |  | Easy | String | Two Pointers |
 | 22 | [Maximum Subarray](https://leetcode.com/problems/maximum-subarray/) |  | Easy | Array | Kadane's |
 | 23 | [Rotate Array](https://leetcode.com/problems/rotate-array/) |  | Medium | Array | Reverse / Cyclic |
@@ -79,7 +79,7 @@ Goal: indexing, traversal, in-place logic, frequency counting, window control, r
 | id_number | title (problem link) | solution (file link) | difficulty | data structure | algorithm |
 |---|---|---|---|---|---|
 | 1 | [Valid Palindrome](https://leetcode.com/problems/valid-palindrome/) | [rust](src/foundations/two_pointers_and_sliding_window/lc_0125_valid_palindrome.rs) | Easy | String | Two Pointers |
-| 2 | [Reverse String](https://leetcode.com/problems/reverse-string/) |  | Easy | String | Two Pointers |
+| 2 | [Reverse String](https://leetcode.com/problems/reverse-string/) | [rust](src/foundations/two_pointers_and_sliding_window/lc_0344_reverse_string.rs) | Easy | String | Two Pointers |
 | 3 | [Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/) | [rust](src/foundations/two_pointers_and_sliding_window/lc_0088_merge_sorted_array.rs) | Easy | Array | Two Pointers |
 | 4 | [Remove Element](https://leetcode.com/problems/remove-element) | [rust](src/foundations/two_pointers_and_sliding_window/lc_0027_remove_element.rs) | Easy | Array | Two pointers |
 | 5 | [Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/) | [rust](src/foundations/two_pointers_and_sliding_window/lc_0026_remove_duplicates_from_sorted_array.rs) | Easy | Array | Two Pointers |

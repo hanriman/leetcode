@@ -22,8 +22,8 @@ mod foundations;
 //
 //     #[test]
 //     fn test1() {
-//         let input = 0;
+//         let input1 = 0;
 //         let output = 0;
-//         assert_eq!(Solution::function(input), output);
+//         assert_eq!(Solution::function(input1), output);
 //     }
 // }
