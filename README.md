@@ -4,17 +4,17 @@ han's leetcode journey
 
 # Complete DSA Problem List
 
-This is a **curated DSA roadmap** with **287 problems**, divided into three stages: Foundations, Core, and Advanced.  
+This is a **curated DSA roadmap** with **300 problems**, divided into three stages: Foundations, Core, and Advanced.  
 Solve them in order to **build strong problem-solving skills, pattern recognition, and interview readiness**.
 
 ## Table of Contents LeetCode and Deep-ML
 - [Complete DSA Problem List](#complete-dsa-problem-list)
-	- [Foundations (1–2 months) (71)](#foundations-12-months)
-		- [Arrays & Strings (24)](#arrays--strings-24)
+	- [Foundations (1–2 months) (84)](#foundations-12-months)
+		- [Arrays & Strings (23)](#arrays--strings-23)
 		- [Two Pointers & Sliding Window (11)](#two-pointers--sliding-window-11)
-		- [Hashing (10)](#hashing-10)
+		- [Hashing (25)](#hashing-25)
 		- [Stack & Queue (13)](#stack--queue-8)
-		- [Recursion & Basic Math (13)](#recursion--basic-math-9)
+		- [Recursion & Basic Math (12)](#recursion--basic-math-9)
 	- [Core Algorithms & Structures (2–4 months) (143)](#core-algorithms--structures-24-months)
 		- [Linked List (16)](#linked-list-16)
 		- [Binary Search (18)](#binary-search-18)
@@ -44,7 +44,7 @@ Goal: indexing, traversal, in-place logic, frequency counting, window control, r
 
 > This section will include **~60 problems**.   
 
-### Arrays & Strings (24)
+### Arrays & Strings (23)
 | id_number | title (problem link) | solution (file link) | difficulty | data structure | algorithm |
 |---|---|---|---|---|---|
 | 1 | [Fizz Buzz](https://leetcode.com/problems/fizz-buzz) | [rust](src/foundations/arrays_and_strings/lc_0412_fizz_buzz.rs) | Easy | Primitive | Basic |
@@ -55,7 +55,7 @@ Goal: indexing, traversal, in-place logic, frequency counting, window control, r
 | 6 | [Find Pivot Index](https://leetcode.com/problems/find-pivot-index/) | [rust](src/foundations/arrays_and_strings/lc_0724_find_pivot_index.rs) | Easy | Array | Prefix Sum |
 | 7 | [Squares of a Sorted Array](https://leetcode.com/problems/squares-of-a-sorted-array/) | [rust](src/foundations/arrays_and_strings/lc_0977_squares_of_a_sorted_array.rs) | Easy | Array | Two Pointers |
 | 8 | [Plus One](https://leetcode.com/problems/plus-one/) | [rust](src/foundations/arrays_and_strings/lc_0066_plus_one.rs) | Easy | Array | Simulation |
-| 9 | [Valid Anagram](https://leetcode.com/problems/valid-anagram/) | [rust](src/foundations/arrays_and_strings/lc_0242_valid_anagram.rs) | Easy | String | Counter / HashMap |
+| 9 | [Is Subsequence](https://leetcode.com/problems/is-subsequence/) | [rust](src/foundations/arrays_and_strings/lc_0392_is_subsequence.rs) | Easy | String | Two Pointers |
 | 10 | [Move Zeroes](https://leetcode.com/problems/move-zeroes/) | [rust](src/foundations/arrays_and_strings/lc_0283_move_zeroes.rs) | Easy | Array | Two Pointers |
 | 11 | [Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/) | [rust](src/foundations/arrays_and_strings/lc_0014_longest_common_prefix.rs) | Easy | String | Trie / Iteration |
 | 12 | [Largest Number At Least Twice of Others](https://leetcode.com/problems/largest-number-at-least-twice-of-others) | [rust](src/foundations/arrays_and_strings/lc_0747_largest_number_at_least_twice_of_others.rs) | Easy | Array | greedy |
@@ -66,11 +66,10 @@ Goal: indexing, traversal, in-place logic, frequency counting, window control, r
 | 17 | [Maximize Happiness of Selected Children](https://leetcode.com/problems/maximize-happiness-of-selected-children/description) | [rust](src/foundations/arrays_and_strings/lc_3075_maximize_happiness_of_selected_children.rs) | Medium | Array | greedy |
 | 18 | [N-Repeated Element in Size 2N Array](https://leetcode.com/problems/n-repeated-element-in-size-2n-array) | [rust](src/foundations/arrays_and_strings/lc_0961_n_repeated_element_in_size_2n_array.rs) | Medium | Array | greedy |
 | 19 | [Majority Element](https://leetcode.com/problems/majority-element/) |  [rust](src/foundations/arrays_and_strings/lc_0169_majority_element.rs)| Easy | Array | HashMap / Boyer-Moore |
-| 20 | [Is Subsequence](https://leetcode.com/problems/is-subsequence/) | [rust](src/foundations/arrays_and_strings/lc_0392_is_subsequence.rs) | Easy | String | Two Pointers |
-| 21 | [String Compression](https://leetcode.com/problems/string-compression/) |  | Medium | String | Two Pointers |
-| 22 | [Maximum Subarray](https://leetcode.com/problems/maximum-subarray/) |  | Medium | Array | Kadane's |
-| 23 | [Rotate Array](https://leetcode.com/problems/rotate-array/) |  | Medium | Array | Reverse / Cyclic |
-| 24 | [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/) |  | Medium | Array | Prefix Products |
+| 20 | [String Compression](https://leetcode.com/problems/string-compression/) |  | Medium | String | Two Pointers |
+| 21 | [Maximum Subarray](https://leetcode.com/problems/maximum-subarray/) |  | Medium | Array | Kadane's |
+| 22 | [Rotate Array](https://leetcode.com/problems/rotate-array/) |  | Medium | Array | Reverse / Cyclic |
+| 23 | [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/) |  | Medium | Array | Prefix Products |
 
 ---
 
@@ -92,20 +91,35 @@ Goal: indexing, traversal, in-place logic, frequency counting, window control, r
 
 ---
 
-### Hashing (10)
+### Hashing (25)
 
 | id_number | title (problem link) | solution (file link) | difficulty | data structure | algorithm |
 |---|---|---|---|---|---|
-| 1 | [Valid Anagram (hashmap)](https://leetcode.com/problems/valid-anagram/) | [rust](src/foundations/hashing/lc_0242_valid_anagram.rs) | Easy | String | HashMap |
+| 1 | [Valid Anagram](https://leetcode.com/problems/valid-anagram/) | [rust](src/foundations/arrays_and_strings/lc_0242_valid_anagram.rs) | Easy | String | Counter / HashMap |
 | 2 | [First Unique Character in a String](https://leetcode.com/problems/first-unique-character-in-a-string/) |  | Easy | String | HashMap |
 | 3 | [Intersection of Two Arrays](https://leetcode.com/problems/intersection-of-two-arrays/) |  | Easy | Array | HashSet |
-| 4 | [Happy Number](https://leetcode.com/problems/happy-number/) |  | Easy | Integer | HashSet |
-| 5 | [Two Sum II – Input Array Is Sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/) |  | Easy | Array | Two Pointers |
-| 6 | [Ransom Note](https://leetcode.com/problems/ransom-note/) |  | Easy | String | HashMap |
-| 7 | [Word Pattern](https://leetcode.com/problems/word-pattern/) |  | Easy | String | HashMap |
-| 8 | [Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/) |  | Medium | Array | Prefix Sum / HashMap |
-| 9 | [Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/) |  | Medium | Array | HashSet |
-| 10 | [Group Anagrams](https://leetcode.com/problems/group-anagrams/) |  | Medium | String | HashMap |
+| 4 | [Intersection of Two Arrays II](https://leetcode.com/problems/intersection-of-two-arrays-ii/) |  | Easy | Array | HashSet |
+| 5 | [Word Pattern](https://leetcode.com/problems/word-pattern/) |  | Easy | String | HashMap |
+| 6 | [Happy Number](https://leetcode.com/problems/happy-number/) |  | Easy | Integer | HashSet |
+| 7 | [Two Sum II – Input Array Is Sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/) |  | Easy | Array | Two Pointers |
+| 8 | [Ransom Note](https://leetcode.com/problems/ransom-note/) |  | Easy | String | HashMap |
+| 9 | [Isomorphic Strings](https://leetcode.com/problems/isomorphic-strings/) |  | Easy | HashMap | Mapping |
+| 10 | [Logger Rate Limiter](https://leetcode.com/problems/logger-rate-limiter/) |  | Easy | HashMap | Simulation |
+| 11 | [Check if the Sentence Is Pangram](https://leetcode.com/problems/check-if-the-sentence-is-pangram/) |  | Easy | HashMap | Counting |
+| 12 | [Unique Number of Occurrences](https://leetcode.com/problems/unique-number-of-occurrences/) |  | Easy | HashMap | Counting |
+| 13 | [Destination City](https://leetcode.com/problems/destination-city/) |  | Easy | HashMap | Graph/Hashing |
+| 14 | [Uncommon Words from Two Sentences](https://leetcode.com/problems/uncommon-words-from-two-sentences/) |  | Easy | HashMap | Counting |
+| 15 | [Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/) |  | Medium | Array | Prefix Sum / HashMap |
+| 16 | [Encode and Decode TinyURL](https://leetcode.com/problems/encode-and-decode-tinyurl/) |  | Medium | HashMap | Design |
+| 17 | [Group Anagrams](https://leetcode.com/problems/group-anagrams/) |  | Medium | String | HashMap |
+| 18 | [Valid Sudoku](https://leetcode.com/problems/valid-sudoku/) |  | Medium | Matrix | HashMap |
+| 19 | [Time Based Key-Value Store](https://leetcode.com/problems/time-based-key-value-store/) |  | Medium | HashMap | Hashing + Binary Search |
+| 20 | [LRU Cache](https://leetcode.com/problems/lru-cache/) |  | Medium | HashMap | Design |
+| 21 | [Minimum Operations to Reduce X to Zero](https://leetcode.com/problems/minimum-operations-to-reduce-x-to-zero/) |  | Medium | HashMap | Prefix Sum |
+| 22 | [Max Number of K-Sum Pairs](https://leetcode.com/problems/max-number-of-k-sum-pairs/) |  | Medium | HashMap | Hashing |
+| 23 | [Subarray Sums Divisible by K](https://leetcode.com/problems/subarray-sums-divisible-by-k/) |  | Medium | HashMap | Prefix Sum |
+| 24 | [Continuous Subarray Sum](https://leetcode.com/problems/continuous-subarray-sum/) |  | Medium | HashMap | Prefix Sum |
+| 25 | [Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/) |  | Medium | Array | HashSet |
 
 ---
 
@@ -129,23 +143,22 @@ Goal: indexing, traversal, in-place logic, frequency counting, window control, r
 
 ---
 
-### Recursion & Basic Math (13)
+### Recursion & Basic Math (12)
 
 | id_number | title (problem link) | solution (file link) | difficulty | data structure | algorithm |
 |---|---|---|---|---|---|
 | 1 | [Fibonacci Number](https://leetcode.com/problems/fibonacci-number/) | [rust](src/foundations/recursion_and_basic_math/lc_0509_fibonacci_number.rs) | Easy | Integer | Recursion |
 | 2 | [Transpose Matrix](https://leetcode.com/problems/transpose-matrix) | [rust](src/foundations/recursion_and_basic_math/lc_0867_transpose_matrix.rs) | Easy | Array | Math |
 | 3 | [Power of Two](https://leetcode.com/problems/power-of-two/) |  | Easy | Integer | Math |
-| 4 | [Reverse String (recursive)](https://leetcode.com/problems/reverse-string/) |  | Easy | String | Recursion |
-| 5 | [Factorial Trailing Zeroes](https://leetcode.com/problems/factorial-trailing-zeroes/) |  | Easy | Integer | Math |
-| 6 | [Roman to Integer](https://leetcode.com/problems/roman-to-integer/) |  | Easy | String | Math / Simulation |
-| 7 | [Convert 1D Array Into 2D Array](https://leetcode.com/problems/convert-1d-array-into-2d-array/) |  | Easy | Array | Math |
-| 8 | [Shift 2D Grid](https://leetcode.com/problems/shift-2d-grid/) |  | Easy | Array | Math |
-| 9 | [Roman to Integer](https://leetcode.com/problems/roman-to-integer/) |  | Easy | String | Math |
+| 4 | [Factorial Trailing Zeroes](https://leetcode.com/problems/factorial-trailing-zeroes/) |  | Easy | Integer | Math |
+| 5 | [Roman to Integer](https://leetcode.com/problems/roman-to-integer/) |  | Easy | String | Math / Simulation |
+| 6 | [Convert 1D Array Into 2D Array](https://leetcode.com/problems/convert-1d-array-into-2d-array/) |  | Easy | Array | Math |
+| 7 | [Shift 2D Grid](https://leetcode.com/problems/shift-2d-grid/) |  | Easy | Array | Math |
+| 8 | [Roman to Integer](https://leetcode.com/problems/roman-to-integer/) |  | Easy | String | Math |
+| 9 | [Lucky Numbers in a Matrix](https://leetcode.com/problems/lucky-numbers-in-a-matrix/) |  | Easy | Matrix | Math |
 | 10 | [Largest Local Values in a Matrix](https://leetcode.com/problems/largest-local-values-in-a-matrix/) |  | Easy | Matrix | Math |
 | 11 | [Power of Four](https://leetcode.com/problems/power-of-four/) |  | Easy | Integer | Math |
-| 12 | [Lucky Numbers in a Matrix](https://leetcode.com/problems/lucky-numbers-in-a-matrix/) |  | Easy | Matrix | Math |
-| 13 | [Count Primes](https://leetcode.com/problems/count-primes/) |  | Medium | Integer | Sieve / Math |
+| 12 | [Count Primes](https://leetcode.com/problems/count-primes/) |  | Medium | Integer | Sieve / Math |
 
 
 ---
