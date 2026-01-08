@@ -133,7 +133,7 @@ Goal: indexing, traversal, in-place logic, frequency counting, window control, r
 
 | id_number | title (problem link) | solution (file link) | difficulty | data structure | algorithm |
 |---|---|---|---|---|---|
-| 1 | [Fibonacci Number](https://leetcode.com/problems/fibonacci-number/) |  | Easy | Integer | Recursion |
+| 1 | [Fibonacci Number](https://leetcode.com/problems/fibonacci-number/) | [rust](src/foundations/recursion_and_basic_math/lc_0509_fibonacci_number.rs) | Easy | Integer | Recursion |
 | 2 | [Transpose Matrix](https://leetcode.com/problems/transpose-matrix) | [rust](src/foundations/recursion_and_basic_math/lc_0867_transpose_matrix.rs) | Easy | Array | Math |
 | 3 | [Power of Two](https://leetcode.com/problems/power-of-two/) |  | Easy | Integer | Math |
 | 4 | [Reverse String (recursive)](https://leetcode.com/problems/reverse-string/) |  | Easy | String | Recursion |
