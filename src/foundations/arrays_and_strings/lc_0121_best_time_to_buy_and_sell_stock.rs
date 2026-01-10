@@ -43,6 +43,29 @@ impl Solution {
 
         helper(&prices, 0, 0, prices[0])
     }
+
+    pub fn max_profit_recursive2(prices: Vec<i32>) -> i32 {
+        fn helper(prices: &[i32], min_price: i32, max_diff: i32) -> i32 {
+            if prices.is_empty() {
+                return max_diff;
+            }
+
+            let new_max = if prices[0] - min_price > max_diff {
+                prices[0] - min_price
+            } else {
+                max_diff
+            };
+            let new_min = if prices[0] < min_price {
+                prices[0]
+            } else {
+                min_price
+            };
+
+            helper(&prices[1..], new_min, new_max)
+        }
+
+        helper(&prices, prices[0], 0)
+    }
 }
 
 #[cfg(test)]
@@ -75,5 +98,19 @@ mod test {
         let input = vec![7, 6, 4, 3, 1];
         let output = 0;
         assert_eq!(Solution::max_profit_recursive(input), output);
+    }
+
+    #[test]
+    fn test5() {
+        let input = vec![7, 1, 5, 3, 6, 4];
+        let output = 5;
+        assert_eq!(Solution::max_profit_recursive2(input), output);
+    }
+
+    #[test]
+    fn test6() {
+        let input = vec![7, 6, 4, 3, 1];
+        let output = 0;
+        assert_eq!(Solution::max_profit_recursive2(input), output);
     }
 }
